@@ -1,0 +1,98 @@
+body {
+    font-family: 'DM Sans', sans-serif;
+    background-image: url(../img/loginRegistro/fondo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+
+header {
+    background-color: #792ab7;
+}
+
+.flex-container {
+    background:linear-gradient(#0009,transparent);
+    display: flex;
+    justify-content: center;
+}
+
+.fondo {
+    margin: 5%;
+    width: 50%;
+    font-size: 1.5rem;
+    background-color: #792ab7;
+    border-radius: 8px;
+}
+
+.title {
+    font-family: 'DM Sans', sans-serif;
+    text-align: center;
+    color: white;
+    padding-bottom: 10%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 5%;
+    color: white;
+}
+
+input, select{
+    height: 60px;
+    margin: 2%;
+    border-radius: 15px;
+    background-color: #c9aae2;
+}
+
+.flex-inp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-inp .archivo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton {
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 5%;
+    width: 50%;
+    height: 10%;
+    margin: 0 auto;
+}
+
+.boton:hover {
+    color: black;
+    transform: scale(1.1);
+}
+
+.recordar {
+    display: flex;
+    align-items: center;
+    margin: 3%;
+}
+
+.recordar input[type="checkbox"] {
+    transform: scale(2);
+}
+
+.fondo p {
+    text-align: center;
+    margin: 1%;
+    padding: 5%;
+}
+
+.cambiar {
+    color: white;
+    font-weight: bold;
+}
+
+.fondo p a:hover {
+    color: black;
+}

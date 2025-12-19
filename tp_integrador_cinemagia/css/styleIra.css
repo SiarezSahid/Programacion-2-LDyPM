@@ -1,0 +1,17 @@
+header {
+    background-color: #de0e0e;
+}
+
+.banner {
+    background-image: url(../img/ira/bannerira.jpg);
+    background-position: center -100px;
+}
+
+h1 {
+    background-color: #de0e0e;
+    color: #000;
+}
+
+.flexfigure {
+    background-color: #8a1818;
+}

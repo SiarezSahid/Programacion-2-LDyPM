@@ -1,0 +1,17 @@
+header {
+    background-color: #312828;
+}
+
+.banner {
+    background-image: url(../img/miedo/bannermiedo.jpg);
+    background-position: center -90px;
+}
+
+h1 {
+    background-color: #312828;
+    color: #fffefe;
+}
+
+.flexfigure {
+    background-color: #312828;
+}

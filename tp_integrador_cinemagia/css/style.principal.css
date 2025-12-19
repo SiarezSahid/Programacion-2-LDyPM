@@ -1,0 +1,191 @@
+/*Encabezado*/
+header {
+    background-color: #792ab7;
+}
+
+/*Publicidad*/
+
+.publicidad {
+    width: 30vw;
+    background-color: #1e1e1e;
+    padding: 1em;
+}
+
+.publicidad h3 {
+    color: #ffcc00;
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+.publicidad p {
+    color: #ffcc00;
+    text-align: center;
+}
+
+.publicidad img {
+    width: 100%;
+    margin-bottom: 1em;
+    border-radius: 8px;
+}
+
+.publicidad__items {
+    text-align: center;
+    margin-bottom: 20%;
+}
+
+
+/*Contenido principal*/
+
+.flex-container {
+    display: flex;
+    align-items: flex-start;
+}
+
+
+/*primera seccion nuevos estrenos*/
+.section-estrenos {
+    padding: 2%;
+    padding-left: 0;
+    background-image: url(../img/principal/fondo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.subtitulo {
+    display: flex;
+    justify-content: center;
+    margin: 1%;
+    padding: 2%;
+    font-size: 1.5rem;
+}
+
+.flex-containerFigure {
+    font-family: 'DM Sans', sans-serif;
+    padding: 2%;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 60px;
+    background-color: #792ab7;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 5%;
+}
+
+.article-container {
+    width: 50%;
+    height: 10%;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.article-container img {
+    width: 80%;
+}
+
+.centrar {
+    /* border: solid 5px rgb(20, 28, 193);*/
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+}
+
+.verMas {
+    border: solid 5px #792ab7;
+    border-radius: 15px;
+    background-color: #792ab7;
+    padding: 1% 2%;
+    font-family: "Open Sans", sans-serif;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.verMas:hover {
+    color:#1e1e1e;
+    /*border: solid 5px red;*/
+}
+
+
+/*segunda seccion emociones */
+
+.section-servicio {
+    font-family: "Open Sans", sans-serif;
+    padding: 2%;
+    padding-left: 0;
+}
+
+.emotions {
+    padding: 2%;
+    background-color: #792ab7;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15vw;
+    height: 25vh;
+    border-radius: 15%;
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 1%;
+}
+
+.emotions ul {
+    list-style: none;
+}
+
+.item a {
+    color: azure;
+    text-decoration: none;
+}
+
+.item a:hover {
+    transform: scale(1.1);
+    color: black;
+}
+
+.item {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5%;
+    margin: 2%;
+}
+
+.alegria {
+    background-color: #f4ea2a;
+    color: black;
+}
+
+.ira {
+    background-color: #d90404;
+}
+
+.calma {
+    background-color: #43c0e4;
+}
+
+.amor {
+    background-color: #f589f5;
+    color: white;
+}
+
+.miedo {
+    background-color: #5a5a5a;
+}
+
+.tristeza {
+    background-color: #0a0a8e;
+}
+
+.asco {
+    background-color: #19c032;
+}
+
+.sorpresa {
+    background-color: #ff8200;
+}

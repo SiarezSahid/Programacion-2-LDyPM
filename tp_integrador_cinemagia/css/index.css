@@ -1,0 +1,107 @@
+/*Selector universal*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*cuerpo*/
+body {
+    font-family: 'DM Sans', sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+/*encabezado*/
+
+.logo {
+    padding: 1%;
+}
+
+.logo img {
+    height: 10vh;
+}
+
+nav {
+    padding: 1%;
+    background-color: #272020;
+}
+
+.nav__lista {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.nav__lista li {
+    padding: 5px 10px;
+}
+
+/*Buscador*/
+.nav .nav__lista .buscar {
+    border: #b5afba solid 2px;
+    border-radius: 5px;
+    width: 20%;
+    padding: 5px 10px;
+    background-color: #b5afba;
+}
+
+.nav .nav__lista .buscar .buscador{
+    border: none; 
+    background-color: #b5afba;  
+    width: 90% ;
+}
+
+.nav__lista li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 8px;
+}
+
+.nav__lista li a:hover {
+    color: #792ab7;
+}
+
+
+/* Pie de pagina */
+footer {
+    font-family: 'DM Sans', sans-serif;
+    background-color: #792ab7;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+
+.ubicacion i {
+    margin-right: 8px;
+    color: #ffffff;
+}
+
+.ubicacion a {
+    color: white;
+    text-decoration: none;
+}
+
+.ubicacion a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.redesSociales a {
+    color: #fff;
+    font-size: 24px;
+    margin: 0 10px;
+}
+
+.redesSociales a:hover {
+    color: #000;
+}
+

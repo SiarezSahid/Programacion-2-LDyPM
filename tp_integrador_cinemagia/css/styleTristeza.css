@@ -1,0 +1,17 @@
+header {
+    background-color: #070090;
+}
+
+.banner {
+    background-image: url(../img/tristeza/bannertristeza.jpg);
+    background-position: center -1400px;
+}
+
+h1 {
+    background-color: #070090;
+    color: white;
+}
+
+.flexfigure {
+    background-color: #070090;
+}

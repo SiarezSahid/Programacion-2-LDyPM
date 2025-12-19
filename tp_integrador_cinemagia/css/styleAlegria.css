@@ -1,0 +1,26 @@
+header {
+    background-color: #f5e517;
+}
+.banner {
+    background-image: url(../img/alegria/stitch.jpg);
+}
+h1{
+    background-color: #f5e517;
+}
+.flexfigure{
+    width: 80%;
+    border: solid 5px red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5e517;
+}
+
+.container__items{
+    width: 20%;
+    border: solid 5px red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

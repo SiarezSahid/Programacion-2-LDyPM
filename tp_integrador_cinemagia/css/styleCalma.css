@@ -1,0 +1,18 @@
+
+header {
+    background-color: #27bbe2;
+}
+
+.banner {
+    background-image: url(../img/calma/bannercalma.png);
+    background-position: center -90px;
+}
+
+h1 {
+    background-color: #27bbe2;
+    color: #000;
+}
+
+.flexfigure {
+    background-color: #27bbe2;
+}
